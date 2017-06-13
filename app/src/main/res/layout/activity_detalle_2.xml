@@ -1,0 +1,56 @@
+<?xml verssupportion="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miell_000.nuevousuario.Detalle_2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/titulo_inicial"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:hint="Ingrese su Teléfono"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="206dp"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnMarcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_marcar"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="316dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/edtTelefono"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

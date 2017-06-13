@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nuevo Usuario</string>
+    <string name="titulo_activity_usuario">Inicio</string>
+    <string name="titulo_activity_detalle">Detalle</string>
+    <string name="btn_entrar">ENTRAR</string>
+    <string name="btn_marcar">MARCAR</string>
+    <string name="titulo_inicial">HOLA</string>
+
+
+</resources>
